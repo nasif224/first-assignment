@@ -34,3 +34,21 @@ nav{
 .header{
     background-image: url(../Assets/Hero-bg.png);
 }
+.banner-title{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px ;
+    margin: 50px 200px;
+
+}
+.banner-font{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.image-style{
+    border-image: 0%;
+    width: 400px;
+    border-radius: 10%;
+}
