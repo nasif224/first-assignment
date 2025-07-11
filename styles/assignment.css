@@ -74,6 +74,59 @@ nav{
 
 
 .contain-style{
-    display: flex;
     justify-content: center;
+    display: flex;
+    margin: 20 30 20 30;
+    gap: 30;
+}
+
+
+.concept-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.para-style{
+    color: #000000;
+}
+
+.pic-style{
+    justify-content: center;
+    width: 840px;
+    border-radius: 5%;
+}
+
+.concept-style{
+    align-items: center;
+}
+
+
+.footer-title{
+    font-size: 98px;
+    font-weight: bold;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 130px;
+}
+.footer-column{
+    width: 50%;
+}
+
+.logo-style{
+    font-size: 80px;
+    font-weight: bolder;
+    color: #4E47FF;
+    padding: 130px;
+    align-items: center;
+}
+
+div ul li{
+    list-style: none;
+
+}
+div li a{
+    text-decoration: none;
 }
